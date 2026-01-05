@@ -1,13 +1,24 @@
-# fairness-recommender-systems
+# Fairness in Recommender Systems
 
-Análisis de equidad (fairness) en sistemas de recomendación utilizando el dataset MovieLens 1M.
-Se compararon modelos KNN y SVD evaluando métricas de precisión (RMSE, Precision@10, Recall@10), cobertura y diversidad, incorporando pruebas estadísticas (t-test y ANOVA) para detectar diferencias significativas entre grupos demográficos y comportamentales.
+Análisis de equidad algorítmica en sistemas de recomendación utilizando el dataset MovieLens 1M.
 
-Herramientas y tecnologías utilizadas:
+## Objetivo
+Evaluar si distintos modelos de recomendación presentan diferencias de desempeño entre grupos demográficos y de comportamiento.
 
-Python
-Pandas, NumPy
-Scikit-surprise
-Matplotlib, Seaborn
-Google Colab
-Análisis estadístico (t-test, ANOVA)
+## Modelos
+- KNN (User-based Collaborative Filtering)
+- SVD (Matrix Factorization)
+
+## Métricas
+- RMSE
+- Precision@10 / Recall@10
+- Cobertura y diversidad
+- Tests estadísticos (t-test y ANOVA)
+
+## Herramientas
+- Python
+- Pandas, NumPy
+- Surprise
+- SciPy
+- Google Colab
+
